@@ -14,17 +14,16 @@ function App() {
       </div>
       <div className="flex max-w-[30rem] flex-col items-center gap-2">
         <img
-          src="./charts/arc_diagram.svg"
-          alt="arc diagram"
+          src="./charts/filesystem.svg"
+          alt="filesystem diagram"
           className="w-[30rem] rounded-md"
         />
         <div className="flex w-full flex-col gap-1">
           <span className="text-base text-foreground">
-            Graph showing the relationship between the number of male and female
-            students in each plan.
+            Filesystem tree with sizes
           </span>
           <small className="text-sm text-muted-foreground">
-            19 / 8 - Create from{' '}
+            26 / 8 - Create from{' '}
             <a
               target="_blank"
               className="text-green-400 hover:cursor-pointer hover:underline"
