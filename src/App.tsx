@@ -2,15 +2,15 @@ function App() {
   return (
     <div className="dark flex h-screen w-full flex-col items-center gap-4 bg-background text-foreground">
       <div className="flex items-center justify-center gap-4 p-4">
-        <span className="font-bold text-red-400">
-          ab<span className="font-bold text-neutral-200">enve</span>
-        </span>
-
         <img
-          className="inline-block h-8 w-8 border-spacing-8 rounded-full border border-border"
-          src="./images/ab-square.png"
-          alt="abenve"
+          className="inline-block bg-white h-8 w-8 border-spacing-8 rounded-full border border-border"
+          src="./images/alan-square.svg"
+          alt="alan"
         />
+
+        <span className="font-bold text-red-400">
+          <span className="font-bold text-neutral-200">ALAN</span>
+        </span>
       </div>
       <div className="flex max-w-[30rem] flex-col items-center gap-2">
         <img
