@@ -20,7 +20,7 @@ function App() {
         />
         <div className="flex w-full flex-col gap-1">
           <span className="text-base text-foreground">
-            Filesystem tree with sizes
+            Sunburst plot showing filesystem tree after Home directory
           </span>
           <small className="text-sm text-muted-foreground">
             26 / 8 - Create from{' '}
